@@ -1,0 +1,31 @@
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Interface.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Interface.pdb
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Model.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Model.pdb
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.csprojResolveAssemblyReference.cache
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.pdb
+D:\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Interface.dll
+D:\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Interface.pdb
+D:\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Model.dll
+D:\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Model.pdb
+D:\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.csprojResolveAssemblyReference.cache
+D:\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.dll
+D:\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.pdb
+D:\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.csproj.CoreCompileInputs.cache
+H:\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Interface.dll
+H:\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Interface.pdb
+H:\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Model.dll
+H:\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Model.pdb
+H:\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.csprojResolveAssemblyReference.cache
+H:\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.csproj.CoreCompileInputs.cache
+H:\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.dll
+H:\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.pdb
+E:\project\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Interface.dll
+E:\project\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Interface.pdb
+E:\project\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Model.dll
+E:\project\EventApplicationCore\EventApplicationCore.Interface\bin\Debug\EventApplicationCore.Model.pdb
+E:\project\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.csprojResolveAssemblyReference.cache
+E:\project\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.csproj.CoreCompileInputs.cache
+E:\project\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.dll
+E:\project\EventApplicationCore\EventApplicationCore.Interface\obj\Debug\EventApplicationCore.Interface.pdb

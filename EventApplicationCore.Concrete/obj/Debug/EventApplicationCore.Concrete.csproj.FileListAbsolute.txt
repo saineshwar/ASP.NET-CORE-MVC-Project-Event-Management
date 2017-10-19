@@ -1,0 +1,222 @@
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.dll.config
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.pdb
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Interface.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Model.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Remotion.Linq.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.AppContext.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Console.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Interactive.Async.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.Compression.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.FileSystem.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Net.Http.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Net.Sockets.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Interface.pdb
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Model.pdb
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.EntityFrameworkCore.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Remotion.Linq.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Collections.Immutable.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Interactive.Async.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.csprojResolveAssemblyReference.cache
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.dll
+C:\Users\Sai\Documents\Visual Studio 2017\Projects\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.pdb
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.dll.config
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.pdb
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Interface.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Model.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Options.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Remotion.Linq.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.AppContext.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Collections.Immutable.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Console.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Globalization.Calendars.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Interactive.Async.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.Compression.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.FileSystem.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Net.Http.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Net.Sockets.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Xml.ReaderWriter.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Interface.pdb
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Model.pdb
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Options.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Remotion.Linq.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Collections.Immutable.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Interactive.Async.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.csprojResolveAssemblyReference.cache
+D:\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.pdb
+D:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Linq.Dynamic.dll
+D:\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.csproj.CoreCompileInputs.cache
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.dll.config
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.pdb
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Interface.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Model.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.EntityFrameworkCore.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Options.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Primitives.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Win32.Primitives.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Remotion.Linq.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.AppContext.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Collections.Immutable.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Console.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Globalization.Calendars.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Interactive.Async.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.Compression.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.Compression.ZipFile.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.FileSystem.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.FileSystem.Primitives.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Linq.Dynamic.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Net.Http.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Net.Sockets.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Algorithms.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Encoding.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Primitives.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Xml.ReaderWriter.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Interface.pdb
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Model.pdb
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.EntityFrameworkCore.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Options.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Primitives.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Remotion.Linq.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Collections.Immutable.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Interactive.Async.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+H:\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.csprojResolveAssemblyReference.cache
+H:\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.csproj.CoreCompileInputs.cache
+H:\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.dll
+H:\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.pdb
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.dll.config
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Concrete.pdb
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Interface.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Model.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.EntityFrameworkCore.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Options.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Win32.Primitives.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Remotion.Linq.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.AppContext.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Collections.Immutable.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Console.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Globalization.Calendars.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Interactive.Async.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.Compression.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.Compression.ZipFile.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.FileSystem.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Linq.Dynamic.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Net.Http.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Net.Sockets.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Xml.ReaderWriter.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Interface.pdb
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\EventApplicationCore.Model.pdb
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.EntityFrameworkCore.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Options.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\Remotion.Linq.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Collections.Immutable.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Interactive.Async.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.csprojResolveAssemblyReference.cache
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.csproj.CoreCompileInputs.cache
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.dll
+E:\project\EventApplicationCore\EventApplicationCore.Concrete\obj\Debug\EventApplicationCore.Concrete.pdb
