@@ -1,0 +1,125 @@
+﻿@model EventApplicationCore.Model.Food
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    @if (TempData["FoodUpdateMessage"] != null)
+    {
+        <p class="alert alert-success" id="successMessage">@TempData["FoodUpdateMessage"]</p>
+    }
+    <form method="post" enctype="multipart/form-data" asp-controller="Food" asp-action="Edit">
+        @Html.ValidationSummary()
+        @Html.AntiForgeryToken()
+        <div class="col-xs-offset-0 col-xs-4">
+            <h3><span class="label label-info">Add Food Item</span></h3>
+            <input asp-for="FoodID" type="hidden" />
+            <div class="form-group">
+                <label class="control-label" asp-for="FoodType">Food Type</label>
+                <input asp-for="FoodType" id="FoodType1" value="1" type="radio" />
+                Veg
+                <input asp-for="FoodType" id="FoodType2" value="2" type="radio" />
+                Non-Veg
+                <span asp-validation-for="FoodType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" asp-for="MealType">Meal Type</label>
+                <input asp-for="MealType" id="Radio1" value="1" type="radio" />
+                Lunch
+                <input asp-for="MealType" id="Radio2" value="2" type="radio" />
+                Dinner
+                <span asp-validation-for="MealType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" asp-for="DishType">Dish Type</label>
+                <select asp-for="DishType"
+                        class="form-control"
+                        asp-items="@(new SelectList(string.Empty,"ID", "Dishtype"))"></select>
+                <span asp-validation-for="DishType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" asp-for="FoodName">Dish Name</label>
+                <input asp-for="FoodName" onblur="CheckDishNameExists();" type="text" class="form-control" />
+                <span asp-validation-for="FoodName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" asp-for="FoodCost">Food Cost</label>
+                <input asp-for="FoodCost" type="text" class="form-control" />
+                <span asp-validation-for="FoodCost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="controls">
+                    <label class="control-label">Upload Dish</label>
+                    <input type="file" title="Please Upload Dish" name="files" multiple />
+                    <br />
+                    @if (!string.IsNullOrEmpty(Model.FoodFilePath))
+                    {
+                        <img src="/@Model.FoodFilePath" height="100" width="200" alt="Uploaded Dish" title="Uploaded Dish" />
+                    }
+
+                </div>
+            </div>
+            <div class="form-actions">
+                <input type="submit" class="btn btn-success" value="Update" />
+            </div>
+            <div class="form-actions">
+                <a href="/AllFood/ViewAllFoods">Show All Food</a>
+
+            </div>
+        </div>
+    </form>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function ()
+    {
+        $.getJSON('@Url.Content("~/")' + "Food/BindDishtype", function (data)
+        {
+            var items = '';
+            items += "<option value='" + "" + "'>" + "----Select----" + "</option>";
+            $("#DishType").empty();
+            $.each(data, function (i, subcategory)
+            {
+             items += "<option value='" + subcategory.ID + "'>" + subcategory.Dishtype + "</option>";
+
+            });
+            $('#DishType').html(items);
+
+               if ('@Model.DishType' !='')
+               {
+                   $('#DishType').val('@Model.DishType');
+               }
+        });
+    });
+
+        function CheckDishNameExists()
+        {
+
+            var url = '@Url.Content("~/")' + "Food/CheckDishNameExists";
+            var source = "#FoodName";
+            var Value = "";
+            if (FoodType1 != null)
+            {
+                Value = $("#FoodType1").val();
+            }
+            else
+            {
+                Value = $("#FoodType2").val();
+            }
+
+            $.post(url, { DishName: $(source).val(), FoodType: Value  },
+            function (data)
+                {
+                    if (data)
+                    {
+                        $(source).val('');
+                        alert("Dish Name Already Used try unique one!");
+                    }
+                    else
+                    {
+
+                    }
+                });
+    }
+
+</script>

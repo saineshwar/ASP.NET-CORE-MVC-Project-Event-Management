@@ -1,0 +1,65 @@
+﻿@model EventApplicationCore.Model.BookingLight
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="container">
+    <form method="post" enctype="multipart/form-data" asp-controller="BookLight" asp-action="BookLight">
+        @Html.ValidationSummary(true)
+        @Html.AntiForgeryToken()
+        <div class="col-xs-offset-0 col-xs-4">
+            <h3><span class="label label-info">Book Lighting</span></h3>
+            <div class="form-group">
+                <label class="control-label" asp-for="LightType">Light Type</label>
+                <input asp-for="LightType" id="LightType1" value="1" type="radio" />
+                In Door
+                <input asp-for="LightType" id="LightType2" value="2" type="radio" />
+                Out Door
+                <span asp-validation-for="LightType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+
+                @for (int i = 0; i < Model.LightList.Count(); i++)
+                {
+                    <input asp-for="@Model.LightList[i].LightChecked" type="checkbox" />
+                        <label asp-for="@Model.LightList[i].LightID">@Model.LightList[i].LightName</label>
+                        <input type="hidden" asp-for="@Model.LightList[i].LightID" />
+                        <input type="hidden" asp-for="@Model.LightList[i].LightName" />
+                        <br />
+                }
+            </div>
+            <div class="form-actions">
+                <input id="Submit" type="submit" class="btn btn-success" value="Book Lighting" />
+                <input id="Cancel" type="button" class="btn btn-success" value="Cancel" />
+            </div>
+        </div>
+    </form>
+    <div class="col-xs-offset-0 col-xs-6">
+        <div id="wrap">
+            <div id="slider-holder">
+                @{
+                    var data = (List<EventApplicationCore.Model.Light>)ViewBag.SliderLightImages;
+
+                    for (int i = 0; i < (data.Count()); i++)
+                    {
+                        <div class="slide">
+                            <div style="background-color:black">@data[i].LightName</div>
+                            <img src="/@data[i].LightFilePath" width="400" height="300" alt="@data[i].LightName">
+                        </div>
+                            <div id="btn-nav-holder">
+                                @if (i == 0)
+                                {
+                                    <img src="/images/bn-slide-on.png" width="8" height="8" alt="" />
+                                }
+                                else
+                                {
+                                    <img src="/images/bn-slide-off.png" width="8" height="8" alt="" />
+                                }
+                            </div>
+                    }
+                }
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+</div>

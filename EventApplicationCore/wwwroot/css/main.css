@@ -1,0 +1,9 @@
+@charset "urf-8";
+
+#wrap {
+	margin-top: 100px;
+	width: 100%;
+	min-width: 400px;
+	height: 500px;
+	max-height: 300px;
+}

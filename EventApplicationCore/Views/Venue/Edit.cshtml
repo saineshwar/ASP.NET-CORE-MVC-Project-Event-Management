@@ -1,0 +1,78 @@
+﻿@model EventApplicationCore.Model.Venue
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container">
+    @if (TempData["VenueUpdateMessage"] != null)
+    {
+        <p class="alert alert-success" id="successMessage">@TempData["VenueUpdateMessage"]</p>
+    }
+
+    <form method="post" enctype="multipart/form-data" asp-controller="Venue" asp-action="Edit">
+        <div class="col-xs-offset-0 col-xs-4">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+            <h3><span class="label label-info">Edit Venue</span></h3>
+
+            <div class="form-group">
+                <label class="control-label" asp-for="VenueName">Venue Name</label>
+                <input asp-for="VenueName" type="text" onblur="CheckVenueNameExists();" class="form-control" />
+                <span asp-validation-for="VenueName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" asp-for="VenueCost">Venue Cost</label>
+                <input asp-for="VenueCost" type="text" class="form-control" />
+                <span asp-validation-for="VenueCost" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <div class="controls">
+                    <label class="control-label">Upload Venue</label>
+                    <input type="file" title="Please Upload Venue" name="files" multiple />
+                    <br />
+                    @if (!string.IsNullOrEmpty(Model.VenueFilePath))
+                    {
+                        <img src="/@Model.VenueFilePath" height="100" width="200" alt="Uploaded Venue" title="Uploaded Venue" />
+                    }
+
+                </div>
+            </div>
+
+            <input asp-for="VenueID" type="hidden" />
+
+            <div class="form-actions">
+                <input id="Submit1" type="submit" class="btn btn-success" value="Update Venue" />
+            </div>
+
+            <div class="form-actions">
+                <a href="/AllVenue/ViewAllVenues">Show All Venue</a>
+            </div>
+
+        </div>
+    </form>
+
+
+    <script type="text/javascript">
+    function CheckVenueNameExists()
+    {
+        var url = '@Url.Content("~/")' + "Venue/CheckVenueNameExists";
+        var source = "#VenueName";
+        $.post(url, { venueName: $(source).val() },
+            function (data)
+                {
+                    if (data)
+                    {
+                        $(source).val('');
+                        alert("VenueName Already Used try unique one!");
+                    }
+                    else
+                    {
+
+                    }
+                });
+    }
+
+    </script>
+
+</div>

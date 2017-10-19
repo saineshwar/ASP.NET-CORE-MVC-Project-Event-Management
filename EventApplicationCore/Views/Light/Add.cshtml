@@ -1,0 +1,77 @@
+﻿@model EventApplicationCore.Model.Light
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    @if (TempData["LightMessage"] != null)
+    {
+        <p class="alert alert-success" id="successMessage">@TempData["LightMessage"]</p>
+    }
+
+    <form method="post" enctype="multipart/form-data" asp-controller="Light" asp-action="Add">
+        <div class="col-xs-offset-0 col-xs-4">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+            <h3><span class="label label-info">Add Light</span></h3>
+
+            <div class="form-group">
+                Light Type
+                <input asp-for="LightType" id="LightType1" value="1" type="radio" />
+                IN Door
+                <input asp-for="LightType" id="LightType2" value="2" type="radio" />
+                Out Door
+                <span asp-validation-for="LightType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" asp-for="LightName">Light Name</label>
+                <input asp-for="LightName" type="text" onblur="CheckLightNameExists();" class="form-control" />
+                <span asp-validation-for="LightName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" asp-for="LightCost">Light Cost</label>
+                <input asp-for="LightCost" type="text" class="form-control" />
+                <span asp-validation-for="LightCost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="controls">
+                    <label class="control-label">Upload Lights</label>
+                    <input required type="file" title="Please Upload Lights" name="files" multiple />
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <input id="Submit" type="submit" class="btn btn-success" value="Add New Lights" />
+            </div>
+
+            <div class="form-actions">
+                <a href="/AllLight/ViewAllLights">Show All Lightings</a>
+            </div>
+
+        </div>
+    </form>
+
+
+    <script type="text/javascript">
+        function CheckLightNameExists()
+    {
+            var url = '@Url.Content("~/")' + "Light/CheckLightNameAlready";
+            var source = "#LightName";
+            $.post(url, { LightName: $(source).val() },
+            function (data)
+                {
+                    if (data)
+                    {
+                        $(source).val('');
+                        alert("Light Name Already Used try unique one!");
+                    }
+                    else
+                    {
+
+                    }
+                });
+    }
+
+    </script>
+
+</div>

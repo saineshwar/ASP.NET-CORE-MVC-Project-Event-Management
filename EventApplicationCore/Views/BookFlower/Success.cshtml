@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+@if (ViewData["BookingFlowerMessage"] != null)
+{
+    <p class="alert alert-success" id="successMessage">@ViewData["BookingFlowerMessage"]</p>
+    <h3>Process Completed Download Receipt</h3>
+    <p>
+        @Html.ActionLink("Show Receipt", "AllBookings", "ShowAllBooking")
+    </p>
+}

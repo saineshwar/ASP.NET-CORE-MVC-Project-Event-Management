@@ -1,0 +1,69 @@
+﻿@model EventApplicationCore.Model.BillingModel
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<div class="container">
+    <br />
+    <h3><span class="label label-info">Booking Approval</span></h3>
+    <form method="post" asp-controller="ShowBookingDetails" asp-action="BookingApproval">
+
+
+        @if (TempData["StatusMessage"] != null)
+        {
+            <p class="alert alert-success" id="successMessage">@TempData["StatusMessage"]</p>
+        }
+        @Html.AntiForgeryToken()
+
+
+
+        <input asp-for="BookingID" type="hidden" />
+        <input asp-for="BookingNo" type="hidden" />
+
+        <div class="row">
+            <div class="col-lg-4">
+                <label>BookingNo</label>
+                <label class="form-control">@Model.BookingNo</label>
+            </div>
+            <div class="col-lg-4">
+                <label>BookingDate</label>
+                <label class="form-control">@Model.BookingDate</label>
+            </div>
+            <div class="col-lg-4">
+                <label>Total Venue Cost</label>
+                <label class="form-control">@Model.TotalVenueCost</label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <label>Total Equipment Cost</label>
+                <label class="form-control">@Model.TotalEquipmentCost</label>
+            </div>
+            <div class="col-lg-4">
+                <label>Total Food Cost</label>
+                <label class="form-control">@Model.TotalFoodCost</label>
+            </div>
+            <div class="col-lg-4">
+                <label>Total Flower Cost</label>
+                <label class="form-control">@Model.TotalFlowerCost</label>
+            </div>
+          
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <label>Total Light Cost</label>
+                <label class="form-control">@Model.TotalLightCost</label>
+            </div>
+            <div class="col-lg-4">
+                <label>Total Amount</label>
+                <label style="background-color:gainsboro" class="form-control">@Model.TotalAmount</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <input id="btnSubmit" type="submit" name="submit" class="btn btn-success" value="Approve" />
+            <input id="btnReject" type="submit" name="submit" class="btn btn-success" value="Reject" />
+        </div>
+    </form>
+</div>

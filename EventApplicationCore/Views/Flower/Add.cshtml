@@ -1,0 +1,70 @@
+﻿@model EventApplicationCore.Model.Flower
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="container">
+    @if (TempData["FLowerMessage"] != null)
+    {
+        <p class="alert alert-success" id="successMessage">@TempData["FLowerMessage"]</p>
+    }
+
+    <form method="post" enctype="multipart/form-data" asp-controller="Flower" asp-action="Add">
+        <div class="col-xs-offset-0 col-xs-4">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+            <h3><span class="label label-info">Add Flowers</span></h3>
+
+            <div class="form-group">
+                <label class="control-label" asp-for="FlowerName">Flower Name</label>
+                <input asp-for="FlowerName" type="text" onblur="CheckFlowerNameExists();" class="form-control" />
+                <span asp-validation-for="FlowerName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" asp-for="FlowerCost">Flower Cost</label>
+                <input asp-for="FlowerCost" type="text" class="form-control" />
+                <span asp-validation-for="FlowerCost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="controls">
+                    <label class="control-label">Upload Flower</label>
+                    <input required type="file" title="Please Upload Flower" name="files" multiple />
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <input id="Submit" type="submit" class="btn btn-success" value="Add New Flower" />
+            </div>
+
+            <div class="form-actions">
+                <a href="/AllFlower/ViewAllFlowers">Show All Flowers</a>
+            </div>
+
+        </div>
+    </form>
+
+
+    <script type="text/javascript">
+        function CheckFlowerNameExists()
+    {
+            var url = '@Url.Content("~/")' + "Equipment/CheckFlowerNameExists";
+            var source = "#FlowerName";
+            $.post(url, { FlowerName: $(source).val() },
+            function (data)
+                {
+                    if (data)
+                    {
+                        $(source).val('');
+                        alert("Flower Name Already Used try unique one!");
+                    }
+                    else
+                    {
+
+                    }
+                });
+    }
+
+    </script>
+
+</div>

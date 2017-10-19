@@ -1,0 +1,69 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+@model EventApplicationCore.Model.Equipment
+<div class="container">
+    @if (TempData["EquipmentMessage"] != null)
+    {
+        <p class="alert alert-success" id="successMessage">@TempData["EquipmentMessage"]</p>
+    }
+
+    <form method="post" enctype="multipart/form-data" asp-controller="Equipment" asp-action="Add">
+        <div class="col-xs-offset-0 col-xs-4">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary()
+            <h3><span class="label label-info">Add Equipment</span></h3>
+
+            <div class="form-group">
+                <label class="control-label" asp-for="EquipmentName">Equipment Name</label>
+                <input asp-for="EquipmentName" type="text" onblur="CheckEquipmentNameExists();" class="form-control" />
+                <span asp-validation-for="EquipmentName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label" asp-for="EquipmentCost">Equipment Cost</label>
+                <input asp-for="EquipmentCost" type="text" class="form-control" />
+                <span asp-validation-for="EquipmentCost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <div class="controls">
+                    <label class="control-label">Upload Equipment</label>
+                    <input required type="file" title="Please Upload Venue" name="files" multiple />
+                </div>
+            </div>
+
+            <div class="form-actions">
+                <input id="Submit1" type="submit" class="btn btn-success" value="Add New Equipment" />
+            </div>
+
+            <div class="form-actions">
+                <a href="/AllEquipment/ViewAllEquipments">Show All Equipment</a>
+            </div>
+
+        </div>
+    </form>
+
+
+    <script type="text/javascript">
+        function CheckEquipmentNameExists()
+    {
+            var url = '@Url.Content("~/")' + "Equipment/CheckEquipmentNameExists";
+            var source = "#EquipmentName";
+            $.post(url, { EquipmentName: $(source).val() },
+            function (data)
+                {
+                    if (data)
+                    {
+                        $(source).val('');
+                        alert("Equipment Name Already Used try unique one!");
+                    }
+                    else
+                    {
+
+                    }
+                });
+    }
+
+    </script>
+
+</div>

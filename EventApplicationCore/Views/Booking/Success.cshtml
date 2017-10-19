@@ -1,0 +1,12 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+@if (ViewData["BookingMessage"] != null)
+{
+    <p class="alert alert-success" id="successMessage">@ViewData["BookingMessage"]</p>
+    <h3>Next Process BookEquipment</h3>
+    <p>
+        @Html.ActionLink("Click Here to Book Equipment", "Equipment", "BookEquipment")
+    </p>
+}

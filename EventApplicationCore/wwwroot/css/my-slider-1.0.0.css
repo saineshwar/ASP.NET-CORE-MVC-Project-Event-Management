@@ -1,0 +1,38 @@
+@charset "urf-8";
+
+#slider-holder {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
+
+#slider-holder .slide {
+  display: none;
+  position: absolute;
+  float: left;
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  font-size: 0px;
+}
+
+.slide .slide-img {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  min-width: 320px;
+  max-width: 800px;
+  height: auto;
+  max-height: 500px;
+}
+
+#slider-holder #btn-nav-holder {
+  z-index: 20;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}

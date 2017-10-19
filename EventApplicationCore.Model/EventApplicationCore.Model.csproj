@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AFAD276E-6807-42B5-B752-E678A06C3F00}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EventApplicationCore.Model</RootNamespace>
+    <AssemblyName>EventApplicationCore.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillingModel.cs" />
+    <Compile Include="BookingDetail.cs" />
+    <Compile Include="BookingEquipment.cs" />
+    <Compile Include="BookingFlower.cs" />
+    <Compile Include="BookingFood.cs" />
+    <Compile Include="BookingLight.cs" />
+    <Compile Include="BookingStatus.cs" />
+    <Compile Include="BookingVenue.cs" />
+    <Compile Include="ChangePasswordModel.cs" />
+    <Compile Include="City.cs" />
+    <Compile Include="CompleteBookingModel.cs" />
+    <Compile Include="Country.cs" />
+    <Compile Include="Dishtypes.cs" />
+    <Compile Include="Equipment.cs" />
+    <Compile Include="EquipmentModel.cs" />
+    <Compile Include="Event.cs" />
+    <Compile Include="Flower.cs" />
+    <Compile Include="FlowerModel.cs" />
+    <Compile Include="Food.cs" />
+    <Compile Include="FoodModel.cs" />
+    <Compile Include="Light.cs" />
+    <Compile Include="LightModel.cs" />
+    <Compile Include="LoginViewModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registration.cs" />
+    <Compile Include="RegistrationViewModel.cs" />
+    <Compile Include="Role.cs" />
+    <Compile Include="State.cs" />
+    <Compile Include="Venue.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

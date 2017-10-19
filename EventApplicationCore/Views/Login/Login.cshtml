@@ -1,0 +1,40 @@
+﻿@model EventApplicationCore.Model.LoginViewModel
+
+<div class="container" ng-controller="LoginController">
+    <div class="panel panel-default">
+        <div class="panel-heading">Login</div>
+        <div class="panel-body">
+
+            @if (ViewBag.errormessage != null)
+            {
+                <p class="alert alert-danger" id="successMessage">@ViewBag.errormessage</p>
+            }
+
+            <form asp-controller="Login" asp-action="Login" method="post">
+                @Html.AntiForgeryToken()
+                <div class="col-xs-offset-4 col-xs-4">
+
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Username">Username</label>
+                        <input autocomplete="off" asp-for="Username" type="text" class="form-control" />
+                        <span asp-validation-for="Username" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label" asp-for="Password">Password</label>
+                        <input autocomplete="off" asp-for="Password" type="password" class="form-control" />
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input id="Submit1" class="btn btn-success" type="submit" value="Sign in To Account">
+                    </div>
+                    <div style="text-align: center;">
+                        No account ?  @Html.ActionLink("Create one !", "Registration", "Registration")
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
+
+</div>

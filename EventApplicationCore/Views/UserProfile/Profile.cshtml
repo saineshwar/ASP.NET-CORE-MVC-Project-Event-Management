@@ -1,0 +1,60 @@
+﻿@model EventApplicationCore.Model.RegistrationViewModel
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+<div class="container">
+    <br />
+    <div class="panel panel-default">
+        <div class="panel-heading">Profile</div>
+        <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="Name">Name</label>
+                        <input asp-for="Name" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="Mobileno">Mobileno</label>
+                        <input asp-for="Mobileno" readonly="readonly" name="Mobileno"  type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="Address">Address</label>
+                        <input asp-for="Address" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="EmailID">EmailID</label>
+                        <input asp-for="EmailID" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="Gender">Gender</label>
+                        <input asp-for="Gender" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="CountryName">Country</label>
+                        <input asp-for="CountryName" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="StateName">State</label>
+                        <input asp-for="StateName" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="CityName">City</label>
+                        <input asp-for="CityName" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="Birthdate">Birthdate</label>
+                        <input asp-for="Birthdate" id="Birthdate" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <label class="control-label" asp-for="Username">Username</label>
+                        <input asp-for="Username" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                </div>    
+        </div>
+    </div>
+</div>

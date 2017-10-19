@@ -1,0 +1,171 @@
+﻿@model EventApplicationCore.Model.CompleteBookingModel
+@{
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="container">
+    <br />
+    <div class="row">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">Booking Details</div>
+            <div class="panel-body">
+
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BillingModel.BookingNo">Booking no</label>
+                    <input asp-for="@Model.BillingModel.BookingNo" type="text" readonly="readonly" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BillingModel.BookingDate">Booking Date</label>
+                    <input asp-for="@Model.BillingModel.BookingDate" readonly="readonly" maxlength="10" name="VenueCost" type="text" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BillingModel.TotalAmount">TotalAmount</label>
+                    <input asp-for="@Model.BillingModel.TotalAmount" readonly="readonly" maxlength="10" name="Mobileno" type="text" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">Venue Details</div>
+            <div class="panel-body">
+
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingVenue.VenueName">VenueName</label>
+                    <input asp-for="@Model.BookingVenue.VenueName" type="text" readonly="readonly" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingVenue.VenueCost">VenueCost</label>
+                    <input asp-for="@Model.BookingVenue.VenueCost" readonly="readonly" maxlength="10" name="VenueCost" type="text" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-3">
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="row">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">Equipment Details</div>
+            <div class="panel-body">
+
+                @for (int i = 0; i < Model.BookingEquipment.Count(); i++)
+                {
+                    <div class="col-lg-3">
+                        <label class="control-label" asp-for="@Model.BookingEquipment[i].EquipmentName">EquipmentName</label>
+                        <input asp-for="@Model.BookingEquipment[i].EquipmentName" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-3">
+                        <label class="control-label" asp-for="@Model.BookingEquipment[i].EquipmentCost">EquipmentCost</label>
+                        <input asp-for="@Model.BookingEquipment[i].EquipmentCost" readonly="readonly" maxlength="10" name="Mobileno" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+                }
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Flower Details</div>
+            <div class="panel-body">
+
+                @for (int i = 0; i < Model.BookingFlower.Count(); i++)
+                {
+                    <div class="col-lg-3">
+                        <label class="control-label" asp-for="@Model.BookingFlower[i].FlowerName">FlowerName</label>
+                        <input asp-for="@Model.BookingFlower[i].FlowerName" readonly="readonly" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-3">
+                        <label class="control-label" asp-for="@Model.BookingFlower[i].FlowerCost">FlowerCost</label>
+                        <input asp-for="@Model.BookingFlower[i].FlowerCost" readonly="readonly" maxlength="10" name="Mobileno" type="text" class="form-control" />
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+                    <div class="col-lg-3">
+                    </div>
+                }
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">Lighting Details</div>
+            <div class="panel-body">
+@for (int i = 0; i < Model.BookingLight.Count(); i++)
+{
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingLight[i].LightName">LightName</label>
+                    <input asp-for="@Model.BookingLight[i].LightName" readonly="readonly" type="text" class="form-control" />
+                </div>
+
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingLight[i].LightTypeName">LightCost</label>
+                    <input asp-for="@Model.BookingLight[i].LightTypeName" readonly="readonly" maxlength="10" name="Mobileno" type="text" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingLight[i].LightCost">LightCost</label>
+                    <input asp-for="@Model.BookingLight[i].LightCost" readonly="readonly" maxlength="10" name="Mobileno" type="text" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                </div>
+}
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="row">
+        <div class="panel panel-primary">
+            <div class="panel-heading">Food Details</div>
+            <div class="panel-body">
+@for (int i = 0; i < Model.BookingLight.Count(); i++)
+{
+
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingFood[i].FoodName">FoodName</label>
+                    <input asp-for="@Model.BookingFood[i].FoodName" readonly="readonly" type="text" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingFood[i].FoodTypeName">FoodType</label>
+                    <input asp-for="@Model.BookingFood[i].FoodTypeName" readonly="readonly" maxlength="10" name="Mobileno" type="text" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingFood[i].MealTypeName">MealType</label>
+                    <input asp-for="@Model.BookingFood[i].MealTypeName" readonly="readonly" maxlength="10" name="Mobileno" type="text" class="form-control" />
+                </div>
+                <div class="col-lg-3">
+                    <label class="control-label" asp-for="@Model.BookingFood[i].FoodCost">MealType</label>
+                    <input asp-for="@Model.BookingFood[i].FoodCost" readonly="readonly" maxlength="10" name="Mobileno" type="text" class="form-control" />
+                </div>
+}
+            </div>
+        </div>
+
+
+
+    </div>
+    
+</div>
