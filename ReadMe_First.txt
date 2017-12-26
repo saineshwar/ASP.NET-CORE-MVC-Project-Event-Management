@@ -36,14 +36,14 @@
  
    1) Customer
        UserID : Customer
-       Password : 123456
+       Password : 1234567
 
   2) Admin
       UserID : Admin
-       Password : 123456
+       Password : 1234567
 
   3) SuperAdmin
       UserID : SuperAdmin
-       Password : 123456
+       Password : 1234567
 
 ====================================================================================
